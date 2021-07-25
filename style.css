@@ -16,36 +16,36 @@ main {
 }
 .About-myself {
     position: absolute;
-    top: 510px;
-    right: 700px;
+    top: 515px;
+    right: 690px;
 }
 .About-myself2 {
     position: absolute;
     top: 580px;
-    right: 100px;
+    right: 120px;
     left:  600px;
 }
 .Work-experience {
     position: absolute;
-    top: 770px;
-    right: 500px;
-    left:  680px;
+    top: 720px;
+    right: 480px;
+    left:  650px;
 }
 .Work-experience2 {
     position: absolute;
-    top: 840px;
+    top: 780px;
     right: 400px;
     left:  600px;
 }
 .English-level {
     position: absolute;    
-    top: 890px;
+    top: 840px;
     right: 500px;
-    left:  680px;
+    left:  650px;
 } 
 .English-level2 {
     position: absolute;    
-    top: 920px;
+    top: 890px;
     right: 500px;
     left:  600px;
 }
