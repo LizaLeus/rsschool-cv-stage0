@@ -1,0 +1,56 @@
+body {
+    font-family : 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    border: 12px solid #52514f;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60em;
+    
+}
+header {
+    background-color:#52514f;
+    height: 500px;
+}
+.name {
+    position: absolute;
+    top: 200px;
+    right: 700px;
+    font-size: 30px;
+    color: #ffff;
+}
+main {
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+.info_aboutme {
+    text-align: left;
+}
+.info_work {
+    text-align: left;
+}
+.info-engl {
+    text-align: left;
+}
+.info_contacts {
+    text-align: left;
+}
+.info_education {
+    text-align: left;
+}
+.bottom {
+    display         : flex;
+  padding-left    : 4%;
+  padding-right   : 7%;
+  padding-bottom  : 30px;
+  justify-content : space-between;
+  align-items     : center;
+  background-color: rgb(83, 83, 82);
+  color           : #fff;
+}
+
+
+
+
