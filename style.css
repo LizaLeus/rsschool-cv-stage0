@@ -1,59 +1,56 @@
 body {
-    font-size: 20px;
-    line-height: 36px;
-  }
+    font-family : 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    border: 12px solid #52514f;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60em;
+    
+}
 header {
-    background-color:#f7ec8d;
+    background-color:#52514f;
     height: 500px;
 }
 .name {
     position: absolute;
     top: 200px;
     right: 700px;
+    font-size: 30px;
+    color: #ffff;
 }
 main {
-    background-color:#ebf7b3;
-}
-.About-myself {
-    position: absolute;
-    top: 515px;
-    right: 690px;
-}
-.About-myself2 {
-    position: absolute;
-    top: 580px;
-    right: 120px;
-    left:  600px;
-}
-.Work-experience {
-    position: absolute;
-    top: 720px;
-    right: 480px;
-    left:  650px;
-}
-.Work-experience2 {
-    position: absolute;
-    top: 780px;
-    right: 400px;
-    left:  600px;
-}
-.English-level {
-    position: absolute;    
-    top: 840px;
-    right: 500px;
-    left:  650px;
-} 
-.English-level2 {
-    position: absolute;    
-    top: 890px;
-    right: 500px;
-    left:  600px;
+    text-align: center;
 }
 footer {
-    background-color: #525151;
-    padding: 10px;
-    width: 550px;
-    height: 450px;
-    color: aliceblue;
+    text-align: center;
 }
+.info_aboutme {
+    text-align: left;
+}
+.info_work {
+    text-align: left;
+}
+.info-engl {
+    text-align: left;
+}
+.info_contacts {
+    text-align: left;
+}
+.info_education {
+    text-align: left;
+}
+.bottom {
+    display         : flex;
+  padding-left    : 4%;
+  padding-right   : 7%;
+  padding-bottom  : 30px;
+  justify-content : space-between;
+  align-items     : center;
+  background-color: rgb(83, 83, 82);
+  color           : #fff;
+}
+
+
+
 
