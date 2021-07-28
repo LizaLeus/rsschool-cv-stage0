@@ -10,12 +10,13 @@ body {
 }
 header {
     background-color:#52514f;
-    height: 500px;
+    height: 516px;
+    padding-top: 5px;
 }
 .name {
     position: absolute;
-    top: 200px;
-    right: 700px;
+    top: 210px;
+    padding-left: 400px;
     font-size: 30px;
     color: #ffff;
 }
@@ -27,18 +28,29 @@ footer {
 }
 .info_aboutme {
     text-align: left;
+    margin-left:20px;
+}
+.skills {
+    text-align: left;
+}
+.CODE {
+    text-align: left;
 }
 .info_work {
     text-align: left;
+    margin-left:20px;
 }
 .info-engl {
     text-align: left;
+    margin-left:20px;
 }
 .info_contacts {
     text-align: left;
+    margin-left:20px;
 }
 .info_education {
     text-align: left;
+    margin-left:20px;
 }
 .bottom {
     display         : flex;
