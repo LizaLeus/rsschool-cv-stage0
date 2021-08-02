@@ -1,0 +1,461 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/RobotoThin.ttf");
+    font-weight: 700;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    position: relative;
+    width: 1920px;
+    height: 6245px;
+    background: #FFFFFF;
+    font-family: roboto;
+    font-weight: normal;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section {
+    padding-top: 75px; 
+    padding-bottom: 75px;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: calc(100% - 40px);
+}
+.container-explore {
+    display: flex;
+}
+.video-section {
+    padding-bottom: 90px;
+}
+.video-image {
+    background-image: url("/assets/img/video.jpg");
+    background-repeat: no-repeat;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: black;
+}
+.logo {
+    background-image: url("assets/svg/Logo.svg");
+    width: 220px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+.logo:hover {
+    filter: invert(95%) sepia(100%) saturate(0%) hue-rotate(164deg) brightness(105%) contrast(106%);
+}
+    
+.text-button {
+    background-color: #710707;
+    border-radius: 10px;
+    width: 360px;
+    height: 75px;
+    color: white;
+    font-size: 22px;
+    font-family: roboto;
+    font-weight: 200;
+    letter-spacing: 2px;
+    
+}
+.welcome {
+    background-image: url("assets/svg/background.svg");
+    background-position: calc(100% - 20px) calc(100% - 50px);
+    background-repeat: no-repeat;
+    background-size: 930px;
+    height: 650px;
+    width: 1215px;
+    left: 465px;
+    top: -114px;
+}
+.display-card {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap:initial;
+    column-gap: 60px;
+}
+.img {
+    background-image: url("assets/img/Royal\ Palace.jpg");
+    background-repeat: no-repeat;
+    width: 440px;
+    height: 285px;
+    left: 0px;
+    top: 0px;
+}
+.img-denon {
+    background-image: url("assets/img/Denon\ Wing.jpg");
+    background-repeat: no-repeat;
+    width: 440px;
+    height: 285px;
+    left: 0px;
+    top: 0px;
+}
+.img-colonnade {
+    background-image: url("assets/img/Colonnade\ Perrault.jpg");
+    background-repeat: no-repeat;
+    width: 440px;
+    height: 285px;
+    left: 0px;
+    top: 0px;
+}
+.img-greek {
+    background-image: url("assets/img/Greek\ hall.jpg");
+    background-repeat: no-repeat;
+    width: 440px;
+    height: 285px;
+    left: 0px;
+    top: 0px;
+}
+.img-mono-lisa {
+    background-image: url("assets/img/Mona\ Lisa.jpg");
+    background-repeat: no-repeat;
+    width: 440px;
+    height: 285px;
+    left: 0px;
+    top: 0px;
+}
+.img-night-palace{
+    background-image: url("assets/img/Night\ Palace.jpg");
+    background-repeat: no-repeat;
+    width: 440px;
+    height: 285px;
+    left: 0px;
+    top: 0px;
+}
+.meninas {
+    background-image: url("assets/img/Meninas\ .jpg");
+    background-repeat: no-repeat;
+    background-position-x: 720px;
+    background-position-y: 150px;
+    width: 720px;
+    height: 700px;
+}
+.tickets-image {
+    background-image: url("assets/img/tickets.jpg");
+    background-repeat: no-repeat;
+    width: 720px;
+    height: 550px;
+    top: 193px;
+}
+.title{
+    font-size: 32px;
+    color: black;
+}
+.title_link {
+    font-family: roboto;
+    font-style: normal;
+    color: black;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 26px;  
+}
+.border-little {
+    position: relative;
+}
+.border-little::after {
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    width: 260px;
+    background: #710707;
+}
+.border {
+    position: relative;
+}
+.border::after{
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  width: 1440px;
+  background: #710707;
+}
+.border-picture {
+    position: relative;
+}
+.border-picture::after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  width: 660px;
+  background: #710707;
+}
+nav {
+    margin-left: 300px;
+}
+.navig {
+    font-family: roboto;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 50px;
+    letter-spacing: 2px;
+    font-style: normal;
+}
+.nav_padding {
+    display: inline-flex;
+    margin-right: 50px;
+    list-style: none;
+
+}
+.bg-black {
+    background-color: black;
+    width: auto;
+}
+.footer {
+    background-color: black;
+}
+.section-title {
+    font-family: Forum;
+    font-size: 70px;
+    font-weight:normal;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 90px;
+    color: #9D8665;
+}
+.section-title2 {
+    font-family: Forum;
+    font-weight:normal;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 80px;
+    color: white;
+    letter-spacing: 5px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+#p_welcome {
+    color: white;
+    font-weight:normal;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+.text-explore {
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 22px;
+    line-height: 38px;
+}
+span {
+    color: #CAAA7D;
+}
+.title-video {
+    font-family: Forum;
+    font-size: 70px;
+    font-weight:normal;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 90px;
+    color: #9D8665;
+}
+.text-video {
+    font-family: roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+}
+.ticket-type {
+    position: absolute;
+    color: white;
+    left: 1050px;
+    width: 270px;
+    height: 260px;
+    top: 4600px;
+    font-size: 28px;
+    font-weight: 700px;
+}
+.container-radio {
+    display: block;
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 40px;
+    cursor:pointer;
+    font-size: 22px;
+    font-weight: 300px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.container-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+.container-radio:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+.container-radio input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.container-radio input:checked ~ .checkmark:after {
+    display: block;
+}
+  /* Style the indicator (dot/circle) */
+.container-radio .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+.number {
+    all: unset;
+    width: 3em;
+    text-align: center;
+}
+.amount {
+    position: absolute;
+    left: 1570px;
+    top: 4600px;
+    text-align: right;
+    font-size: 28px;
+    color: white;
+}
+.amount-text {
+    position: absolute;
+    left: 1550px;
+    top: 4650px;
+    font-family: roboto;
+    font-weight: 700;
+    color: white
+}
+.amount-senior {
+    position: absolute;
+    left: 1550px;
+    top: 4730px;
+    font-family: roboto;
+    font-weight: 700;
+    color: white
+}
+.sum {
+    position: absolute;
+    left: 1540px;
+    top: 4790px;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 28px;
+    color: white
+}
+.button-ticket {
+    position: absolute;
+    width: 175px;
+    height: 50px;
+    left: 1500px;
+    top: 4850px;
+    background: #FFFFFF;
+    font-family: roboto;
+    font-weight: 300px;
+    letter-spacing: 2px;
+    font-size: 22px;
+    color: black;
+    text-align: center;
+}
+.contacts {
+    font-family: roboto;
+    font-weight: 300px;
+    font-size: 28px;
+}
+.address {
+    font-family: roboto;
+    font-weight: 300px;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 20px;
+}
+.maps {
+    background-image: url("assets/img/maps.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    width: 960px;
+    height: 620px;
+    left: 400px;
+    bottom: 195px;
+}
+.navigetion-2 {
+    font-family: roboto;
+    font-style: normal;
+    font-size: 22px;
+    margin-left: 70px;
+}
+.nav-bottom {
+    display:inline-block;
+    color: white;
+    list-style: none;
+}
+.Youtube {
+    background-image: url("assets/svg/Youtube.svg");
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+}
+.social {
+    display:flex;
+}
+.socil-margin {
+    margin-left: 350px;
+}
+.Instagram {
+    background-image: url("assets/svg/Instagram.svg");
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+}
+.Facebook {
+    background-image: url("assets/svg/Facebook.svg");
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+}
+.Twitter {
+    background-image: url("assets/svg/Twitter.svg");
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+}
+.Pinterest {
+    background-image: url("assets/svg/Pinterest.svg");
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+}
+
+
